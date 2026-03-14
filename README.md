@@ -1,17 +1,29 @@
 # 📉 Prédiction de l'Attrition Client (Churn)
 
 ## 📌 Présentation du Projet
-Ce projet a été réalisé dans le cadre de mon Master 1 MIAGE. L'objectif est d'analyser les données clients pour comprendre pourquoi certains partent et de construire un modèle prédictif simple.
+Ce projet de Master 1 MIAGE porte sur l'analyse de la relation entre la **satisfaction** perçue par le client et sa **fidélité** réelle. L'enjeu est de segmenter la base client pour identifier les profils "à risque" malgré un score de satisfaction élevé.
 
 ## 🛠️ Outils utilisés
 * **Langage :** Python 3
 * **Environnement :** Google Colab
-* **Librairies :** Pandas (manipulation), Seaborn & Matplotlib (visualisation), Scikit-Learn (ML).
+* **Librairies :** * `Pandas` pour la manipulation des données.
+    * `Matplotlib` & `Seaborn` pour la visualisation statistique. * 'Scikit-Learn' (ML).
 
 ## 📊 Analyse effectuée
-* **Exploration (EDA) :** Analyse de la distribution du Churn selon les variables (Genre, Contrat, Charges mensuelles).
 * **Préparation :** Nettoyage des données manquantes et encodage des variables.
+* **Exploration (EDA) :** Analyse de la distribution du Churn selon les variables (Genre, Contrat, Charges mensuelles).
 * **Modélisation :** Entraînement d'un modèle de classification.
 
-## 🚀 Comment voir le projet ?
-Vous pouvez consulter le code et les graphiques directement via le fichier `.ipynb` ci-dessus ou l'ouvrir dans Colab via le bouton dédié à l'intérieur du notebook.
+## 🚀 Conclusion Business
+Cette analyse permet de ne pas se fier uniquement aux scores de satisfaction globale, mais de détecter les segments de clients qui, bien que satisfaits, présentent un risque de départ (churn) par manque de loyauté structurelle.
+
+
+## 🔍 Comment consulter le projet ?
+
+Pour explorer mon analyse, vous avez deux options :
+
+1.  **Lecture rapide :** Consultez le fichier `Customer_Churn_Analysis.ipynb` directement ici sur GitHub pour voir le code et les visualisations.
+2.  **Exécution interactive :** Cliquez sur le bouton **"Open in Colab"** situé en haut du notebook pour exécuter les cellules et interagir avec les graphiques.
+
+---
+*Projet réalisé par Lina ([LinaGitCode](https://github.com/LinaGitCoder))*
